@@ -28,7 +28,7 @@ module.exports = {
     { value: 'ci', name: 'ci:       Changes to our CI configuration files and scripts', emoji: ':ferris_wheel:' },
     { value: 'chore', name: 'chore:    Other changes that don\'t modify src or test files', emoji: ':hammer:' },
     { value: 'revert', name: 'revert:   Reverts a previous commit', emoji: ':rewind:' }
-  ]
+  ],
   // useEmoji: false,
   // emojiAlign: 'center',
   // useAI: false,
@@ -45,7 +45,7 @@ module.exports = {
   // allowBreakingChanges: ['feat', 'fix'],
   // breaklineNumber: 100,
   // breaklineChar: '|',
-  // skipQuestions: [],
+  skipQuestions: ['body', 'footer'],
   // issuePrefixes: [{ value: 'closed', name: 'closed:   ISSUES has been processed' }],
   // customIssuePrefixAlign: 'top',
   // emptyIssuePrefixAlias: 'skip',
